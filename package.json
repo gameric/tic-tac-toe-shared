@@ -1,0 +1,12 @@
+{
+  "name": "tic-tac-toe-shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc index.ts -d"
+  }
+}
