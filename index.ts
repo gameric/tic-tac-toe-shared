@@ -31,5 +31,10 @@ export interface ITileClickedEvent {
   char: PLAYER;
 }
 
+export const EMPTY_TILE = "";
+
 export const getOpponent = (char: PLAYER): PLAYER =>
   char === PLAYER.X ? PLAYER.O : PLAYER.X;
+
+export const newBoard = () =>
+  Array.from({ length: 3 }, () => Array.from({ length: 3 }, () => EMPTY_TILE));

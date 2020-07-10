@@ -25,4 +25,6 @@ export interface ITileClickedEvent {
     location: IPoint;
     char: PLAYER;
 }
+export declare const EMPTY_TILE = "";
 export declare const getOpponent: (char: PLAYER) => PLAYER;
+export declare const newBoard: () => string[][];
