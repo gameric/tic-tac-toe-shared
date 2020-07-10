@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
+  "repository": {
+    "url": "https://github.com/gameric/tic-tac-toe-shared"
+  },
   "files": [
     "index.d.ts"
   ],
