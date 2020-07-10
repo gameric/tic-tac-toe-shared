@@ -21,8 +21,7 @@ export interface IMyGameState extends IGameState {
     myChar: PLAYER;
 }
 export interface ITileClickedEvent {
-    room: string;
-    location: IPoint;
+    point: IPoint;
     char: PLAYER;
 }
 export declare const EMPTY_TILE = "";
