@@ -30,3 +30,6 @@ export interface ITileClickedEvent {
   location: IPoint;
   char: PLAYER;
 }
+
+export const getOpponent = (char: PLAYER): PLAYER =>
+  char === PLAYER.X ? PLAYER.O : PLAYER.X;
