@@ -26,8 +26,7 @@ export interface IMyGameState extends IGameState {
 }
 
 export interface ITileClickedEvent {
-  room: string;
-  location: IPoint;
+  point: IPoint;
   char: PLAYER;
 }
 
